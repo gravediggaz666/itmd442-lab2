@@ -43,8 +43,8 @@ app.get('/contacts', (req, res) => {
   res.render('contacts', { contacts });
 });
 
-app.get('/contacts/new', (req, res) => {
-  res.render('new');
+app.get('/contacts/createContact', (req, res) => {
+  res.render('createContact');
 });
 
 app.get('/contacts/:id', (req, res) => {
